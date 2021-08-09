@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Kimberly Kuya</title>
+    <link rel="stylesheet" href="portfolio.css">     
+    <script>
+      var slide = 1;
+      var leftArrow = document.getElementById("leftArrow");
+      var rightArrow = document.getElementById("rightArrow");
+      var title = document.getElementById("title");
+      var body = document.getElementById("body");
+
+      leftArrow.onclick = function increment() {
+        slide++;
+        checkSlideValue();
+      };
+
+      rightArrow.onclick =  function decrement() {
+        slide--;
+        checkSlideValue();
+      }
+
+      function checkSlideValue() {
+        if (slide == 1) {
+        title.innerHTML = 'HELLO';
+      } else if (slide == 2) {
+        title.innerHTML = 'ABOUT';
+      } else if (slide == 3) {
+        title.innerHTML = 'SKILLS';
+      } else {
+        title.innerHTML = 'HELLO'
+      }
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Top Menus -->
+    <div id="topmenu"><button onclick="location.href='about.html'">
+      <svg id="nav" xmlns="http://www.w3.org/2000/svg" width="300.625" height="68.263" viewBox="0 0 300.625 68.263">
+          <g id="about" data-name="About" transform="translate(-372.704 -155.704)">
+            <path id="aboutpath" data-name="about" d="M375.478,280.153l86.493,63.467H583.678l86.835-63.467" transform="translate(0.022 -121.653)" fill="none" stroke="#f5c1c1" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+            <text id="ABOUTtext" transform="translate(519.703 194.924)" fill="#f5c1c1" font-size="15" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em"><tspan x="-39.725" y="0" href="about.html" >ABOUT</tspan></text>
+          </g>
+        </svg>
+      </button>
+    </div>
+    <!-- Page Content -->
+    <div id="leftarrow">
+      <button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="42.282" height="134.237" viewBox="0 0 42.282 134.237">
+          <g id="Group_18" data-name="Group 18" transform="translate(2.828 2.828)">
+            <g id="Group_16" data-name="Group 16" transform="translate(0 0)">
+              <g id="Group_14" data-name="Group 14" transform="translate(37.453 0) rotate(90)">
+                <path id="Path_7" data-name="Path 7" d="M0,37.453,37.7,0H90.736L128.58,37.453" fill="none" stroke="#f5c1c1" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+              </g>
+              <path id="Icon_material-keyboard-arrow-left" data-name="Icon material-keyboard-arrow-left" d="M12.138,2.31l-7.5,7.518,7.5,7.518-2.31,2.31L0,9.828,9.828,0Z" transform="translate(12.316 54)" fill="#f5c1c1"/>
+            </g>
+          </g>
+        </svg>
+      </button>
+    </div>
+    <div id="content">
+        <!-- Name Text -->
+        <h1 id="title">HELLO</h1>
+        <p id="body">My name is Kimberly and welcome to my website</p>
+    </div>
+    <div id="rightarrow">
+      <button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="42.282" height="134.237" viewBox="0 0 42.282 134.237">
+          <g id="Group_19" data-name="Group 19" transform="translate(2 2.828)">
+            <g id="Group_16" data-name="Group 16" transform="translate(0 0)">
+              <g id="Group_14" data-name="Group 14" transform="translate(37.453) rotate(90)">
+                <path id="Path_7" data-name="Path 7" d="M0,0,37.7,37.453H90.736L128.58,0" fill="none" stroke="#f5c1c1" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+              </g>
+              <path id="Icon_material-keyboard-arrow-left" data-name="Icon material-keyboard-arrow-left" d="M0,2.31,7.5,9.828,0,17.347l2.31,2.31,9.828-9.828L2.31,0Z" transform="translate(13 54)" fill="#f5c1c1"/>
+            </g>
+          </g>
+        </svg>
+      </button>
+    </div>
+    <!-- Bottom Menus -->
+    <div id="bottommenu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="203.431" height="16.15" viewBox="0 0 203.431 16.15">
+        <g id="Group_8" data-name="Group 8" transform="translate(-771 -975.787)">
+          <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(779.075 975.787) rotate(45)" fill="#f5c1c1" stroke="#f5c1c1" stroke-width="3">
+            <rect width="11.42" height="11.42" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none"/>
+          </g>
+          <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(825.895 975.787) rotate(45)" fill="none" stroke="#f5c1c1" stroke-width="3">
+            <rect width="11.42" height="11.42" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none"/>
+          </g>
+          <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(872.716 975.787) rotate(45)" fill="none" stroke="#f5c1c1" stroke-width="3">
+            <rect width="11.42" height="11.42" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none"/>
+          </g>
+          <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(919.536 975.787) rotate(45)" fill="none" stroke="#f5c1c1" stroke-width="3">
+            <rect width="11.42" height="11.42" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none"/>
+          </g>
+          <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(966.356 975.787) rotate(45)" fill="none" stroke="#f5c1c1" stroke-width="3">
+            <rect width="11.42" height="11.42" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+</body>
+</html>

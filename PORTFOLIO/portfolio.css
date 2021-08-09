@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'neuropolitical';
+    src: url('neuropolitical_rg-webfont.woff2') format('woff2'),
+         url('neuropolitical_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #161616;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    align-content: space-around;
+}
+
+h1,
+h2,
+p {
+    color: #F5C1C1
+}
+
+h1 {
+    font-family: neuropolitical;
+    letter-spacing: 0.2em;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+#aboutbtn {
+    vertical-align: top;
+    width: auto;
+}
+
+#topmenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+#bottommenu {
+    padding-bottom: 20pt;
+    width: 95%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+g path {
+    transition-property: all;
+    transition-duration: 1s;
+    fill: none;
+    stroke: #f5c1c1
+}
+
+g text {
+    transition-property: all;
+    transition-duration: 1s;
+    fill: #f5c1c1;
+}
+
+g:hover path {
+    fill: #f5c1c1;
+    stroke: none;
+}
+
+g:hover text {
+    fill: #161616
+}
+
+g:hover #Icon_material-keyboard-arrow-left {
+    fill: #161616
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+#rightarrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding-left: 0 !important;
+    right: 0;
+}
+
+#leftarrow {
+    padding-right: 0 !important;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
