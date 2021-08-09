@@ -1,0 +1,29 @@
+<svg id="Component_2_18" data-name="Component 2 – 18" xmlns="http://www.w3.org/2000/svg" width="434" height="92.847" viewBox="0 0 434 92.847">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f5c1c1;
+        font-size: 24px;
+        font-family: NeuropoliticalRg-Regular, Neuropolitical;
+        letter-spacing: 0.2em;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: #f5c1c1;
+      }
+    </style>
+  </defs>
+  <g id="Path_5" data-name="Path 5" class="cls-1" transform="translate(434 -224.153) rotate(90)">
+    <path class="cls-3" d="M224.153,0,317,127.116V306.884L224.153,434Z"/>
+    <path class="cls-4" d="M 228.15283203125 12.25796508789063 L 228.15283203125 421.7420654296875 L 312.9999389648438 305.5791015625 L 313 128.4209289550781 L 228.15283203125 12.25796508789063 M 224.15283203125 3.0517578125e-05 L 317 127.1156616210938 L 316.9999389648438 306.8843688964844 L 224.15283203125 434 L 224.15283203125 3.0517578125e-05 Z"/>
+  </g>
+  <text id="CONTACT" class="cls-2" transform="translate(217 49.847)"><tspan x="-84.36" y="0">CONTACT</tspan></text>
+</svg>
