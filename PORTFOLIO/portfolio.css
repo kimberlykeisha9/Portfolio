@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'neuropolitical';
+    src: url('neuropolitical_rg-webfont.woff2') format('woff2'), url('neuropolitical_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #161616;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    align-content: space-around;
+}
+
+h1,
+h2,
+p {
+    color: #F5C1C1
+}
+
+h1 {
+    font-family: neuropolitical;
+    letter-spacing: 0.2em;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poppins', Arial;
+    text-align: center;
+    font-size: 15pt;
+}
+
+#aboutbtn {
+    vertical-align: top;
+    width: auto;
+}
+
+#topmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#content {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+#bottommenu {
+    /* padding-bottom: 20pt; */
+    width: 95%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+g path {
+    transition-property: all;
+    transition-duration: 1s;
+    fill: none;
+    stroke: #f5c1c1
+}
+
+g text {
+    transition-property: all;
+    transition-duration: 1s;
+    fill: #f5c1c1;
+}
+
+g:hover path {
+    fill: #f5c1c1;
+    stroke: none;
+}
+
+g:hover text {
+    fill: #161616
+}
+
+g:hover #Icon_material-keyboard-arrow-left {
+    fill: #161616
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+#rightarrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding-left: 0 !important;
+    right: 0;
+}
+
+#leftarrow {
+    padding-right: 0 !important;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+form {
+    padding-top: 20pt
+}
+
+input {
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1pt #f5c1c1;
+    color: #F5C1C1;
+    font-size: 12pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    height: auto;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgba(245, 193, 193, .1);
+}
+
+::placeholder {
+    font-family: "Poppins";
+    color: #f5c1c1;
+    font-size: 12pt
+}
+
+#send1,
+#send2 {
+    fill: #F5C1C1
+}
+
+#sendtext {
+    fill: #161616
+}
+
+.title {
+    display: none;
+    transition: 1s;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Poppins';
+    color: #f5c1c1;
+    font-size: 15pt;
+}
+
+ul {
+    padding-left: 100pt !important;
+}
+
+#socials {
+    display: flex;
+    padding-top: 20pt;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.menu {
+    display: none;
+    transition: 1s;
+}
+
+#ABOUT,
+#CONTACTmen,
+#SKILLS,
+#HOME {
+    fill: #615252
+}
+
+.nav {
+    transition: 1s;
+}
+
+#Polygon_2 {
+    fill: #f5c1c1
+}
+
+.nav:hover+.menu {
+    display: block
+}
+
+.nav:hover {
+    display: none
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(0, 0);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+svg {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 0.3s ease-out 0s 1 zoom-in-zoom-out;
+  }
