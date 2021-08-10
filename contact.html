@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Kimberly Kuya</title>
+    <link rel="stylesheet" href="portfolio.css">     
+    <script>
+      var slide = 1;
+      var leftArrow = document.getElementById("leftArrow");
+      var rightArrow = document.getElementById("rightArrow");
+      var title = document.getElementById("title");
+      var body = document.getElementById("body");
+
+      leftArrow.onclick = function increment() {
+        slide++;
+        checkSlideValue();
+      };
+
+      rightArrow.onclick =  function decrement() {
+        slide--;
+        checkSlideValue();
+      }
+
+      function checkSlideValue() {
+        if (slide == 1) {
+        title.innerHTML = 'HELLO';
+      } else if (slide == 2) {
+        title.innerHTML = 'ABOUT';
+      } else if (slide == 3) {
+        title.innerHTML = 'SKILLS';
+      } else {
+        title.innerHTML = 'HELLO'
+      }
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Top Menus -->
+    <div id="topmenu" style="justify-content: center"><button onclick="location.href='about.html'">
+      <svg class="nav" xmlns="http://www.w3.org/2000/svg" width="300.625" height="68.263" viewBox="0 0 300.625 68.263">
+          <g id="about" data-name="About" transform="translate(-372.704 -155.704)">
+            <path id="aboutpath" data-name="about" d="M375.478,280.153l86.493,63.467H583.678l86.835-63.467" transform="translate(0.022 -121.653)" fill="none" stroke="#f5c1c1" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+            <text id="ABOUTtext" transform="translate(519.703 194.924)" fill="#f5c1c1" font-size="15" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em"><tspan x="-52.725" y="0" >CONTACT</tspan></text>
+          </g>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="301" height="219" viewBox="0 0 301 219">
+          <g id="Group_9" data-name="Group 9" transform="translate(-2729 -382.349)">
+            <rect id="Rectangle_9" data-name="Rectangle 9" width="300" height="156" transform="translate(2730 382.349)" fill="#f5c1c1"/>
+            <g id="Component_2_16" data-name="Component 2 – 16" transform="translate(2729 382.349)">
+              <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(0 0)">
+                <path id="Polygon_2" data-name="Polygon 2" d="M154.856,0,219,87.868V212.132L154.856,300H64.144L0,212.132V87.868L64.144,0Z" transform="translate(300 0) rotate(90)" fill="#f5c1c1"/>
+              </g>
+              <text id="ABOUT" transform="translate(149 189)" fill="#161616 !important" font-size="16" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em"><tspan x="-42.096" y="0">ABOUT</tspan></text>
+              <text id="CONTACTmen" transform="translate(148 139)" fill="#161616" font-size="16" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em"><tspan x="-56.24" y="0">CONTACT</tspan></text>
+              <text id="SKILLS" transform="translate(149 89)" fill="#161616" font-size="16" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em"><tspan x="-41.608" y="0">SKILLS</tspan></text>
+              <text id="HOME" transform="translate(148 40)" fill="#161616" font-size="16" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em"><tspan x="-35.44" y="0">HOME</tspan></text>
+            </g>
+          </g>
+        </svg>
+      </button>
+      <button class="menu" onclick="closeMenu()"></button>
+    </div>
+    <!-- Page Content -->
+    <div id="content">
+        <!-- Name Text -->
+        <h1 id="title">Reach Out</h1>
+        <p id="body">Don't hesitate to ask me anything. <br/>I look forward to hearing from you!</p>
+        <div id="contactform">
+          <form>
+            <input type="text" id="fname" name="fname" placeholder="Name">
+            <br>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <br>
+            <br>
+            <input type="text" id="message" name="message" placeholder="Message">
+          </form>
+        </div>
+    </div>
+    <!-- Bottom Menus -->
+    <div id="bottommenu" style="justify-content: center;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="64.18" viewBox="0 0 300 64.18">
+        <g id="sendbtn" data-name="Component 2 – 32" transform="translate(300 64.18) rotate(180)">
+          <g id="Path_3" data-name="Path 3" transform="translate(300 -154.944) rotate(90)" fill="#f5c1c1">
+            <path id="send1" d="M 156.9443511962891 293.8710632324219 L 156.9443511962891 6.129001617431641 L 217.1244354248047 88.52062225341797 L 217.1244354248047 211.4794464111328 L 156.9443511962891 293.8710632324219 Z" stroke="none"/>
+            <path id="send2" d="M 158.9443511962891 12.25799560546875 L 158.9443511962891 287.7420349121094 L 215.1244354248047 210.8267517089844 L 215.1244354248047 89.17332458496094 L 158.9443511962891 12.25799560546875 M 154.9443511962891 3.0517578125e-05 L 219.1244354248047 87.86801147460938 L 219.1244354248047 212.1320495605469 L 154.9443511962891 300 L 154.9443511962891 3.0517578125e-05 Z" stroke="none" fill="#f5c1c1"/>
+          </g>
+          <text id="sendtext" transform="translate(150 26.18) rotate(180)" fill="#161616" font-size="15" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em"><tspan x="-30.487" y="0">SEND</tspan></text>
+        </g>
+      </svg>
+      
+    </div>
+</body>
+</html>
