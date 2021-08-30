@@ -39,6 +39,12 @@ h2 {
     text-align: center;
 }
 
+img {
+    flex: 20%;
+    width: 20%;
+    height: auto
+}
+
 p {
     font-family: 'Poppins', Arial;
     text-align: center;
@@ -62,13 +68,40 @@ p {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    padding-left: 10pt;
+    padding-right: 10pt;
     top: 50%;
     left: 50%;
-    width: 60%;
+    width: 80%;
+    height: 70%;
     transform: translate(-50%, -50%);
     transition: 1s;
+    scrollbar-color: #161616 #161616;
 }
 
+#content::-webkit-scrollbar {
+    width: 10pt
+}
+
+#content::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.3);
+}
+
+#content::-webkit-scrollbar-thumb {
+    background:#161616; 
+}
+
+body::-webkit-scrollbar {
+    width: 10pt
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background:#161616; 
+}
 #bottommenu {
     /* padding-bottom: 20pt; */
     width: 95%;
