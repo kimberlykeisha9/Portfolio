@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f5c1c1;
+    background-color: white;
     padding-left: 10pt;
     padding-right: 10pt;
     align-content: space-around;
@@ -16,7 +16,7 @@ body {
 
 .dark-mode {
     background-color: #161616;
-    color: #f5c1c1;
+    color: white;
 }
 
 h1,
@@ -131,11 +131,11 @@ g:hover path {
 }
 
 g:hover text {
-    fill: #f5c1c1
+    fill: white
 }
 
 g:hover #Icon_material-keyboard-arrow-left {
-    fill: #f5c1c1
+    fill: white
 }
 
 button {
@@ -192,7 +192,7 @@ input:focus {
 }
 
 #sendtext {
-    fill: #f5c1c1
+    fill: white
 }
 
 .title {
@@ -281,7 +281,7 @@ svg {
   .content {
       margin: 15% auto;
       padding: 20px;
-      background: #f5c1c1;
+      background: white;
       width: 80%;
       border: 4pt solid #161616
   }
