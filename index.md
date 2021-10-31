@@ -1,4 +1,4 @@
-white<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html><!DOCTYPE html><!DOCTYPE html>
 <html lang="en">
 
 <head>
