@@ -8,66 +8,128 @@
     <title>Portfolio | Kimberly Kuya</title>
     <link rel="stylesheet" href="portfolio.css">
 </head>
+
 <body>
     <!-- Top Menus -->
-    <div id="topmenu" style="justify-content: center"><button onclick="location.href='index.html'">
-      <svg class="nav" xmlns="http://www.w3.org/2000/svg" width="300.625" height="68.263" viewBox="0 0 300.625 68.263">
-          <g id="about" data-name="About" transform="translate(-372.704 -155.704)">
-            <path id="aboutpath" data-name="about" d="M375.478,280.153l86.493,63.467H583.678l86.835-63.467" transform="translate(0.022 -121.653)" fill="none" stroke="#f5c1c1" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
-            <text id="ABOUTtext" transform="translate(519.703 194.924)" fill="#f5c1c1" font-size="15" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em"><tspan x="-33.225" y="0" >HOME</tspan></text>
-          </g>
-        </svg>
-      </button>
+    <div id="topmenu" style="justify-content: center"><a href="index.html">
+            <svg class="nav" xmlns="http://www.w3.org/2000/svg" width="300.625" height="68.263"
+                viewBox="0 0 300.625 68.263">
+                <g id="about" data-name="About" transform="translate(-372.704 -155.704)">
+                    <path id="aboutpath" data-name="about" d="M375.478,280.153l86.493,63.467H583.678l86.835-63.467"
+                        transform="translate(0.022 -121.653)" fill="none" stroke="#f5c1c1" stroke-linecap="square"
+                        stroke-linejoin="round" stroke-width="4" />
+                    <text id="ABOUTtext" transform="translate(519.703 194.924)" fill="#f5c1c1" font-size="15"
+                        font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em">
+                        <tspan x="-33.225" y="0">HOME</tspan>
+                    </text>
+                </g>
+            </svg>
+        </a>
     </div>
     <!-- Page Content -->
     <div id="content" style="
     flex-wrap:wrap; flex-direction: row">
-        <!-- Name Text -->        
+        <!-- Name Text -->
         <div class="project">
-            <h2 style="flex: 100%">Cybersecurity Projects</h2>
-        <p style="flex: 100%"><b>File Encryption/Decryption Bash Script</b></p>
-        <p style="flex: 100%">I created a lightweight script that uses OpenSSL to encrypt and decrypt most file types e.g mp3, pdf, doc and more on your Linux Device. </p>
-        <p><img style="width: 50%" src="portfolio/bashscript.png"/></p>
-        <p style="font-size: 10pt; flex: 100%"><i>Sample of file being encrypted</i></p>
-        <p>The source code can be found <a href="https://github.com/kimberlykeisha9/File-Encryption-Bash-Script">here</a>.</p>
-        <p style="flex: 100%"><b>Encryption and Cryptography Practical Activity</b></p>
-        <p style="flex: 100%"><a href="https://github.com/kimberlykeisha9/Cybersecurity-week-7-Task/blob/main/Kimberly%20Kuya%20Week%207%20PA/week_7_practical_activity.md">Here</a> is a practical I did where I used nmap and various other tools to scan ports for any vulnerabilities as well as cracking a provided hash successfully and carried out an encryption using OpenSSL.</p>
+            <h2 style="flex: 100%">Projects</h2>
+            <p>Click to view my portfolio in each category</p>
+            <a onclick="document.getElementById('csec-port').style.display='block'"><svg xmlns="http://www.w3.org/2000/svg" width="355" height="259" viewBox="0 0 355 259">
+                <g id="Group_15" data-name="Group 15" transform="translate(-425 -125.139)">
+                    <g id="Polygon_3" data-name="Polygon 3" transform="translate(425 384.139) rotate(-90)" fill="none">
+                        <path d="M183.141,0,259,103.977V251.023L183.141,355H75.859L0,251.023V103.977L75.859,0Z"
+                            stroke="none" />
+                        <path
+                            d="M 77.8924560546875 4 L 4 105.2812194824219 L 4 249.718994140625 L 77.8924560546875 351 L 181.1074523925781 351 L 254.9999542236328 249.7190856933594 L 255 105.2812652587891 L 181.1074523925781 4 L 77.8924560546875 4 M 75.85934448242188 0 L 183.1405487060547 0 L 259 103.9772033691406 L 258.9999389648438 251.0231475830078 L 183.1405487060547 355 L 75.85934448242188 355 L 0 251.0230407714844 L 0 103.9771575927734 L 75.85934448242188 0 Z"
+                            stroke="none" fill="#f5c1c1" />
+                    </g>
+                    <text id="CYBERSEcURITY" transform="translate(488 244.139)" fill="#f5c1c1" font-size="17"
+                        font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.1em">
+                        <tspan x="10.411" y="17">CYBERSECURITY</tspan>
+                    </text>
+                </g>
+            </svg></a>
+            <a onclick="document.getElementById('gdesign-port').style.display='block'"><svg xmlns="http://www.w3.org/2000/svg" width="355" height="259" viewBox="0 0 355 259">
+                <g id="Group_15" data-name="Group 15" transform="translate(-425 -125.139)">
+                    <g id="Polygon_3" data-name="Polygon 3" transform="translate(425 384.139) rotate(-90)" fill="none">
+                        <path d="M183.141,0,259,103.977V251.023L183.141,355H75.859L0,251.023V103.977L75.859,0Z"
+                            stroke="none" />
+                        <path
+                            d="M 77.8924560546875 4 L 4 105.2812194824219 L 4 249.718994140625 L 77.8924560546875 351 L 181.1074523925781 351 L 254.9999542236328 249.7190856933594 L 255 105.2812652587891 L 181.1074523925781 4 L 77.8924560546875 4 M 75.85934448242188 0 L 183.1405487060547 0 L 259 103.9772033691406 L 258.9999389648438 251.0231475830078 L 183.1405487060547 355 L 75.85934448242188 355 L 0 251.0230407714844 L 0 103.9771575927734 L 75.85934448242188 0 Z"
+                            stroke="none" fill="#f5c1c1" />
+                    </g>
+                    <text transform="translate(488 244.139)" fill="#f5c1c1" font-size="17"
+                        font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.1em">
+                        <tspan x="10.411" y="17">GRAPHIC DESIGN</tspan>
+                    </text>
+                </g>
+            </svg></a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="355" height="259" viewBox="0 0 355 259">
+                <g id="Group_15" data-name="Group 15" transform="translate(-425 -125.139)">
+                  <g id="Polygon_3" data-name="Polygon 3" transform="translate(425 384.139) rotate(-90)" fill="none">
+                    <path d="M183.141,0,259,103.977V251.023L183.141,355H75.859L0,251.023V103.977L75.859,0Z" stroke="none"/>
+                    <path d="M 77.8924560546875 4 L 4 105.2812194824219 L 4 249.718994140625 L 77.8924560546875 351 L 181.1074523925781 351 L 254.9999542236328 249.7190856933594 L 255 105.2812652587891 L 181.1074523925781 4 L 77.8924560546875 4 M 75.85934448242188 0 L 183.1405487060547 0 L 259 103.9772033691406 L 258.9999389648438 251.0231475830078 L 183.1405487060547 355 L 75.85934448242188 355 L 0 251.0230407714844 L 0 103.9771575927734 L 75.85934448242188 0 Z" stroke="none" fill="#f5c1c1"/>
+                  </g>
+                  <text id="SOFTWARE_DEVELOPMENT" data-name="SOFTWARE DEVELOPMENT" transform="translate(488 224.139)" fill="#f5c1c1" font-size="17" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.1em"><tspan x="50" y="17">SOFTWARE </tspan><tspan x="25.84" y="57">DEVELOPMENT</tspan></text>
+                </g>
+              </svg>
         </div>
-        <div class="project">
-            <h2 style="flex: 100%">Graphic Design Projects</h2>
-        <p style="flex: 100%">A bunch of UI/UX Designs, Digital Drawings and Posters I have designed</p>
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly; overflow-x: auto">
-            <img src="portfolio/Sign In Screen.png"/>
-            <img src="portfolio/KJuicesSignIn.png"/>
-            <img src="portfolio/SomeSI.png"/>
-            <img src="portfolio/SomeSU.png"/>
-            <img src="portfolio/Welcome Screen.png"/>
-            <img src="portfolio/KJuicesSplash.png"/>
-            <img src="portfolio/Welome Screen.png"/>
-            <img src="portfolio/InspoArtboard 1 copy 2.png"/>
-            <img src="portfolio/InspoArtboard 1.png"/>
-            <img src="portfolio/SashaArtboard 1.png"/>
-            <img src="portfolio/KArtboard 1.png"/>
-            <img src="portfolio/FishyArtboard 1.png"/>
-            <img src="portfolio/InspoArtboard 1 copy.png"/>
-            <img src="portfolio/WebPage.png"/>
-            <img src="portfolio/quitArtboard 1.png"/>
-            <img src="portfolio/whiskeyArtboard 1.png"/>
-            <img src="portfolio/MortgageArtboard 1.png"/>
-            <img src="portfolio/Poster.png"/>
-            <img src="portfolio/N4S.png"/>
-            <img src="portfolio/Floral.png"/>
-            <img src="portfolio/Bet.png"/>
-            <img src="portfolio/Gaia.png"/>
-            <img src="portfolio/Malik.png"/>
-            <img src="portfolio/NeonMe.png"/>
-            <img src="portfolio/secBdayArt.png"/>
-            <img src="portfolio/Sad.jpeg"/>
-            <img src="portfolio/AfricanGirl.jpeg"/>
-            <img src="portfolio/Artboard 1.png"/>
-            <img src="portfolio/DesignerDress.png"/>
+    </div>
+    <div id="csec-port" class="dialog" onclick="document.getElementById('csec-port').style.display='none'">
+        <div class="content">           
+            <h2>Cybersecurity Projects</h2>
+            <p><b>File Encryption/Decryption Bash Script</b></p>
+            <p>I created a lightweight script that uses OpenSSL to encrypt and decrypt most file
+                types e.g mp3, pdf, doc and more on your Linux Device. </p>
+            <p><img style="width: 50%" src="portfolio/bashscript.png" /></p>
+            <p style="font-size: 10pt; flex: 100%"><i>Sample of file being encrypted</i></p>
+            <p>The source code can be found <a
+                    href="https://github.com/kimberlykeisha9/File-Encryption-Bash-Script">here</a>.</p>
+            <p style="flex: 100%"><b>Encryption and Cryptography Practical Activity</b></p>
+            <p style="flex: 100%"><a
+                    href="https://github.com/kimberlykeisha9/Cybersecurity-week-7-Task/blob/main/Kimberly%20Kuya%20Week%207%20PA/week_7_practical_activity.md">Here</a>
+                is a practical I did where I used nmap and various other tools to scan ports for any vulnerabilities as
+                well as cracking a provided hash successfully and carried out an encryption using OpenSSL.</p>
         </div>
+    </div>
+    <div id="gdesign-port" class="dialog" onclick="document.getElementById('gdesign-port').style.display='none'">
+        <div class="content">     
+                <h2 style="flex: 100%">Graphic Design Projects</h2>
+                <p style="flex: 100%">A bunch of UI/UX Designs, Digital Drawings and Posters I have designed</p>
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly; overflow-x: auto">
+                    <img src="portfolio/Sign In Screen.png" />
+                    <img src="portfolio/KJuicesSignIn.png" />
+                    <img src="portfolio/SomeSI.png" />
+                    <img src="portfolio/SomeSU.png" />
+                    <img src="portfolio/Welcome Screen.png" />
+                    <img src="portfolio/KJuicesSplash.png" />
+                    <img src="portfolio/Welome Screen.png" />
+                    <img src="portfolio/InspoArtboard 1 copy 2.png" />
+                    <img src="portfolio/InspoArtboard 1.png" />
+                    <img src="portfolio/SashaArtboard 1.png" />
+                    <img src="portfolio/KArtboard 1.png" />
+                    <img src="portfolio/FishyArtboard 1.png" />
+                    <img src="portfolio/InspoArtboard 1 copy.png" />
+                    <img src="portfolio/WebPage.png" />
+                    <img src="portfolio/quitArtboard 1.png" />
+                    <img src="portfolio/whiskeyArtboard 1.png" />
+                    <img src="portfolio/MortgageArtboard 1.png" />
+                    <img src="portfolio/Poster.png" />
+                    <img src="portfolio/N4S.png" />
+                    <img src="portfolio/Floral.png" />
+                    <img src="portfolio/Bet.png" />
+                    <img src="portfolio/Gaia.png" />
+                    <img src="portfolio/Malik.png" />
+                    <img src="portfolio/NeonMe.png" />
+                    <img src="portfolio/secBdayArt.png" />
+                    <img src="portfolio/Sad.jpeg" />
+                    <img src="portfolio/AfricanGirl.jpeg" />
+                    <img src="portfolio/Artboard 1.png" />
+                    <img src="portfolio/DesignerDress.png" />
+                    <img src="portfolio/Artboard 1 (2).png" />
+                    <img src="portfolio/AwamuArtboard 7.png" />
+                </div>
         </div>
     </div>
 </body>
+
 </html>
