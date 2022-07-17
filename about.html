@@ -1,178 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Kimberly Kuya</title>
     <link rel="stylesheet" href="portfolio.css">
+  </head>
 
-</head>
-
-<body>
-    <!-- Top Menus -->
-    <div id="topmenu" style="justify-content: center"><button class="nav" onclick="location.href='index.html'">
-      <svg xmlns="http://www.w3.org/2000/svg" width="300.625" height="68.263" viewBox="0 0 300.625 68.263">
-          <g id="about" data-name="About" transform="translate(-372.704 -155.704)">
-            <path id="aboutpath" data-name="about" d="M375.478,280.153l86.493,63.467H583.678l86.835-63.467" transform="translate(0.022 -121.653)" fill="none" stroke="#161616" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
-            <text id="ABOUTtext" transform="translate(519.703 194.924)" fill="#161616" font-size="15" font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em"><tspan x="-33.225" y="0" href="index.html" >HOME</tspan></text>
-          </g>
-        </svg>
-      </button>
-    </div>
-    <!-- Page Content -->
-    <div id="leftarrow">
-        <button id="leftclick" onclick="plusDivs(-1)">
-        <svg xmlns="http://www.w3.org/2000/svg" width="42.282" height="134.237" viewBox="0 0 42.282 134.237">
-          <g id="Group_18" data-name="Group 18" transform="translate(2.828 2.828)">
-            <g id="Group_16" data-name="Group 16" transform="translate(0 0)">
-              <g id="Group_14" data-name="Group 14" transform="translate(37.453 0) rotate(90)">
-                <path id="Path_7" data-name="Path 7" d="M0,37.453,37.7,0H90.736L128.58,37.453" fill="none" stroke="#161616" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
-              </g>
-              <path id="Icon_material-keyboard-arrow-left" data-name="Icon material-keyboard-arrow-left" d="M12.138,2.31l-7.5,7.518,7.5,7.518-2.31,2.31L0,9.828,9.828,0Z" transform="translate(12.316 54)" fill="#161616"/>
+  <body>
+    <div class="container-fluid d-sm-flex flex-sm-column justify-content-sm-between h-100">
+      <!-- Top Menus -->
+      <div class="d-sm-flex justify-content-sm-center"><button class="nav" onclick="location.href='index.html'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="300.625" height="68.263" viewBox="0 0 300.625 68.263">
+            <g id="about" data-name="About" transform="translate(-372.704 -155.704)">
+              <path id="aboutpath" data-name="about" d="M375.478,280.153l86.493,63.467H583.678l86.835-63.467"
+                transform="translate(0.022 -121.653)" fill="none" stroke="#161616" stroke-linecap="square"
+                stroke-linejoin="round" stroke-width="4" />
+              <text id="ABOUTtext" transform="translate(519.703 194.924)" fill="#161616" font-size="15"
+                font-family="NeuropoliticalRg-Regular, Neuropolitical" letter-spacing="0.2em">
+                <tspan x="-33.225" y="0" href="index.html">HOME</tspan>
+              </text>
             </g>
-          </g>
-        </svg>
-      </button>
-    </div>
-    <div id="content">
-        <div class="title">
-            <h1>HELLO</h1>
-            <p>My name is Kimberly and welcome to my website. I am a Full Stack Developer, Graphic Designer and Cyber Security Personnel by expertise.</p>
-            <p>I thrive in creative and analytical setups and love to learn new things.</p>
-        </div>
-        <div class="title">
-            <h1>EXPERTISE</h1>
-            <p style="font-size: 9pt; font-style: italic;">*Click the boldened words for more details</p>
-            <p>You are currently looking at two of my skills which are <b><a onclick="document.getElementById('gdesign').style.display='block'">Graphic Design</a></b> and <a onclick="document.getElementById('sdev').style.display='block'">Software Development</a></p>
-            <p>My other skills include:</p>
-            <ul>
-                <li><a onclick="document.getElementById('pentest').style.display='block'">Cybersecurity</a></li>
-                <li><a onclick="document.getElementById('cloud').style.display='block'">Cloud Management</a></li>
-            </ul>
-        </div>
-    </div>
-    <div id="rightarrow">
-        <button id="rightclick" onclick="plusDivs(+1)">
-        <svg xmlns="http://www.w3.org/2000/svg" width="42.282" height="134.237" viewBox="0 0 42.282 134.237">
-          <g id="Group_19" data-name="Group 19" transform="translate(2 2.828)">
-            <g id="Group_16" data-name="Group 16" transform="translate(0 0)">
-              <g id="Group_14" data-name="Group 14" transform="translate(37.453) rotate(90)">
-                <path id="Path_7" data-name="Path 7" d="M0,0,37.7,37.453H90.736L128.58,0" fill="none" stroke="#161616" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
-              </g>
-              <path id="Icon_material-keyboard-arrow-left" data-name="Icon material-keyboard-arrow-left" d="M0,2.31,7.5,9.828,0,17.347l2.31,2.31,9.828-9.828L2.31,0Z" transform="translate(13 54)" fill="#161616"/>
-            </g>
-          </g>
-        </svg>
-      </button>
-    </div>
-    <!--Dialogs-->
-    <div id="gdesign" class="dialog" onclick="document.getElementById('gdesign').style.display='none'">
-        <div class="content">
-            <h2>Graphic Design</h2>
-            <p><br/></p>
-            <p>My graphic design specialties lie in <b>UI/UX Design</b>, <b>Digital Artwork</b>, and <b>Brand Design</b></p>
-            <p>I am skilled in creating modern logos, posters, flyers and mock-up products that align and define your brand. I can create customized graphics that are unique to you and visually pleasing.</p>
-            <p>I can create user interfaces as well as giving as stellar user experience with my UI/UX Skills that will give your brand an original feel while giving the best experience to your end users.</p>
-            <p>Tools I am proficient in using are Adobe Creative Suite (Photoshop, Illustrator, After Effects, Lightroom), GIMP, Toon Boom Harmony and Figma. I am flexible to learn other softwares as requested.</p>
-            <p>My work samples can be found on my <b>Portfolio</b> page and on my <b>Behance</b> and <b>Dribbble</b> accounts.</p>        
-        </div>
-    </div>
-    <div id="sdev" class="dialog" onclick="document.getElementById('sdev').style.display='none'">
-      <div class="content">
-          <h2>Software Development</h2>
-          <p><br/></p>
-          <p>My software development specialties lie in <b>Web Development</b>, <b>Frontend Development</b>, <b>Backend Development</b> and <b>Mobile Development</b></p>
-          <p>I am well skilled when it comes to creating responsive, modern and reliable websites and mobile applications that are well-received and provide an amazing user experience.</p>
-          <p>Languages I am proficient in are Dart, HTML/CSS, Java, Javascript, Bash Script, Python, C and C++.</p>
-          <p>Tools I am proficient in using are Visual Studio Code, IntelliJ IDE, Eclipse and Adobe Dreamweaver. I am flexible to learn other softwares as requested.</p>
-          <p>My work samples can be found on my <b>Portfolio</b> page and <b>Github</b> account.</p>        
+          </svg>
+        </button>
       </div>
-  </div>
-  <div id="cloud" class="dialog" onclick="document.getElementById('cloud').style.display='none'">
-    <div class="content">
-        <h2>Cloud Management</h2>
-        <p><br/></p>
-        <p>My cloud specialties lie in <b>Cloud Security</b>, <b>Database Management</b> and <b>Cloud Computing</b>.</p>
-        <p>I have expertise in creating and servicing Virtual Machines, creating and maintaining databases with planned Backup and Recovery Systems in the event of disasters and protecting information from unauthorized parties.</p>
-        <p>Cloud frameworks I am proficient in are AWS, Microsoft Azure and Google Cloud. I am flexible to learn other environments as requested.</p>
-        <p>My work samples can be found on my <b>Portfolio</b> page and <b>Github</b> account.</p>        
-    </div>
-</div>
-<div id="pentest" class="dialog" onclick="document.getElementById('pentest').style.display='none'">
-  <div class="content">
-      <h2>Cybersecurity</h2>
-      <p><br/></p>
-      <p>I am well versed in the cybersecurity field with expertise in <b>Ethical Hacking</b>, <b>Offensive Security</b>, <b>Defensive Security</b>, <b>Disaster Recovery</b> and <b>Digital Forensics</b>.</p>
-      <p>I am well trained in providing excellent cybersecurity measures to ensure that your venture is up to standard when it comes to protection against unwarranted access and secure storage of your information. </p>
-      <p>Tools I am proficient in using are Visual Studio Code, IntelliJ IDE, Eclipse and Adobe Dreamweaver. I am flexible to learn other softwares as requested.</p>
-      <p>My work samples can be found on my <b>Portfolio</b> page and <b>Github</b> account.</p>        
-  </div>
-</div>
-    <!-- Bottom Menus -->
-    <div id="bottommenu" style="padding-bottom: 20pt; justify-content: center;">
+      <!-- Page Content -->
+      <div id="leftarrow">
+        <button id="leftclick" onclick="plusDivs(-1)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="42.282" height="134.237" viewBox="0 0 42.282 134.237">
+            <g id="Group_18" data-name="Group 18" transform="translate(2.828 2.828)">
+              <g id="Group_16" data-name="Group 16" transform="translate(0 0)">
+                <g id="Group_14" data-name="Group 14" transform="translate(37.453 0) rotate(90)">
+                  <path id="Path_7" data-name="Path 7" d="M0,37.453,37.7,0H90.736L128.58,37.453" fill="none"
+                    stroke="#161616" stroke-linecap="square" stroke-linejoin="round" stroke-width="4" />
+                </g>
+                <path id="Icon_material-keyboard-arrow-left" data-name="Icon material-keyboard-arrow-left"
+                  d="M12.138,2.31l-7.5,7.518,7.5,7.518-2.31,2.31L0,9.828,9.828,0Z" transform="translate(12.316 54)"
+                  fill="#161616" />
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div class="d-sm-flex flex-sm-wrap align-items-sm-center flex-sm-column col-sm-8 align-self-sm-center">
+        <div class="title">
+          <h1>HELLO</h1>
+          <br>
+          <p>My name is Kimberly and welcome to my website. I am a Full Stack Developer, Graphic Designer and Cyber
+            Security Personnel by expertise.</p>
+          <p>I love to work with businesses of all sizes and I pride myself in my ability to learn things quickly while
+            delivering quality work (Samples can be found on my <a href="portfolio.html"><b>Portfolio Page</b></a>).</p>
+        </div>
+        <div class="title">
+          <h1>EXPERTISE</h1>
+          <p style="font-size: 9pt; font-style: italic;">*Click the boldened words for more details</p>
+          <br>
+          <p>You are currently looking at two of my skills which are <b><a
+                onclick="document.getElementById('gdesign').style.display='block'">Graphic Design</a></b> and <a
+              onclick="document.getElementById('sdev').style.display='block'">Software Development</a></p>
+          <br>
+          <p>My other skills include:</p>
+          <ul>
+            <li><a onclick="document.getElementById('pentest').style.display='block'">Cybersecurity</a></li>
+            <li><a onclick="document.getElementById('cloud').style.display='block'">Cloud Management</a></li>
+          </ul>
+          <br>
+          <p>Feel free to reach out to me if you need more elaboration on my work expertise and see if I can be a
+            compatible fit for your project.</p>
+        </div>
+      </div>
+      <div id="rightarrow">
+        <button id="rightclick" onclick="plusDivs(+1)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="42.282" height="134.237" viewBox="0 0 42.282 134.237">
+            <g id="Group_19" data-name="Group 19" transform="translate(2 2.828)">
+              <g id="Group_16" data-name="Group 16" transform="translate(0 0)">
+                <g id="Group_14" data-name="Group 14" transform="translate(37.453) rotate(90)">
+                  <path id="Path_7" data-name="Path 7" d="M0,0,37.7,37.453H90.736L128.58,0" fill="none" stroke="#161616"
+                    stroke-linecap="square" stroke-linejoin="round" stroke-width="4" />
+                </g>
+                <path id="Icon_material-keyboard-arrow-left" data-name="Icon material-keyboard-arrow-left"
+                  d="M0,2.31,7.5,9.828,0,17.347l2.31,2.31,9.828-9.828L2.31,0Z" transform="translate(13 54)"
+                  fill="#161616" />
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+      <!--Dialogs-->
+      <div id="gdesign" class="dialog" onclick="document.getElementById('gdesign').style.display='none'">
+        <div class="content">
+          <h2>Graphic Design</h2>
+          <p><br /></p>
+          <p>My graphic design specialties lie in <b>UI/UX Design</b>, <b>Digital Artwork</b>, and <b>Brand Design</b>
+          </p>
+          <p>I am skilled in creating modern logos, posters, flyers and mock-up products that align and define your
+            brand. I can create customized graphics that are unique to you and visually pleasing.</p>
+          <p>I can create user interfaces as well as giving as stellar user experience with my UI/UX Skills that will
+            give your brand an original feel while giving the best experience to your end users.</p>
+          <p>Tools I am proficient in using are Adobe Creative Suite (Photoshop, Illustrator, After Effects, Lightroom),
+            GIMP, Toon Boom Harmony and Figma. I am flexible to learn other softwares as requested.</p>
+          <p>My work samples can be found on my <a href="portfolio.html"><b>Portfolio</b></a> page and on my
+            <b>Behance</b> and <b>Dribbble</b> accounts.</p>
+        </div>
+      </div>
+      <div id="sdev" class="dialog" onclick="document.getElementById('sdev').style.display='none'">
+        <div class="content">
+          <h2>Software Development</h2>
+          <p><br /></p>
+          <p>My software development specialties lie in <b>Web Development</b>, <b>Frontend Development</b>, <b>Backend
+              Development</b> and <b>Mobile Development</b></p>
+          <p>I am well skilled when it comes to creating responsive, modern and reliable websites and mobile
+            applications that are well-received and provide an amazing user experience.</p>
+          <p>Languages and Framewrosk I am proficient in are Dart, HTML/CSS, Java, Javascript, Bash Script, Python, C#,
+            C++, Firebase, Node.js, React and Kotlin.</p>
+          <p>Tools I am proficient in using are Visual Studio Code, IntelliJ IDE, Eclipse and Adobe Dreamweaver. I am
+            flexible to learn other softwares as requested.</p>
+          <p>My work samples can be found on my <a href="portfolio.html"><b>Portfolio</b></a> page and <a
+            href="https://www.github.com/kimberlykeisha9/"><b>Github</b></a>
+            account.</p>
+        </div>
+      </div>
+      <div id="cloud" class="dialog" onclick="document.getElementById('cloud').style.display='none'">
+        <div class="content">
+          <h2>Cloud Management</h2>
+          <p><br /></p>
+          <p>My cloud specialties lie in <b>Cloud Security</b>, <b>Database Management</b> and <b>Cloud Computing</b>.
+          </p>
+          <p>I have expertise in creating and servicing Virtual Machines, creating and maintaining databases with
+            planned Backup and Recovery Systems in the event of disasters and protecting information from unauthorized
+            parties.</p>
+          <p>Cloud frameworks I am proficient in are AWS, Microsoft Azure and Google Cloud. I am flexible to learn other
+            environments as requested.</p>
+          <p>My work samples can be found on my <a href="portfolio.html"><b>Portfolio</b></a> page and <a
+            href="https://www.github.com/kimberlykeisha9/"><b>Github</b></a>
+            account.</p>
+        </div>
+      </div>
+      <div id="pentest" class="dialog" onclick="document.getElementById('pentest').style.display='none'">
+        <div class="content">
+          <h2>Cybersecurity</h2>
+          <p><br /></p>
+          <p>I am well versed in the cybersecurity field with expertise in <b>Ethical Hacking</b>, <b>Offensive
+              Security</b>, <b>Defensive Security</b>, <b>Disaster Recovery</b>, <b>Cryptography</b> and <b>Digital
+              Forensics</b>.</p>
+          <p>I am well trained in providing excellent cybersecurity measures to ensure that your venture is up to
+            standard when it comes to protection against unwarranted access and secure storage of your information.</p>
+          <p>Tools I am proficient in using are Kali Linux, Metasploit, Splunk, Wireshark, nmap. Basically the commonly
+            used tools when it comes to Cybersecurity ventures. Other tools/softwares can be learnt upon request.</p>
+          <p>My work samples can be found on my <a href="portfolio.html"><b>Portfolio</b></a> page and <a
+              href="https://www.github.com/kimberlykeisha9/"><b>Github</b></a> account.</p>
+        </div>
+      </div>
+      <!-- Bottom Menus -->
+      <div div class="d-sm-flex justify-content-sm-center" style="padding-bottom: 20pt;">
         <svg xmlns="http://www.w3.org/2000/svg" height="16.15" viewBox="0 0 203.431 16.15">
-        <g id="Group_8" data-name="Group 8" transform="translate(-726 -975.787)">
-          <!-- <g class="dots" id="Rectangle_3" data-name="Rectangle 3" transform="translate(779.075 975.787) rotate(45)" fill="none" stroke="#161616" stroke-width="3">
+          <g id="Group_8" data-name="Group 8" transform="translate(-726 -975.787)">
+            <!-- <g class="dots" id="Rectangle_3" data-name="Rectangle 3" transform="translate(779.075 975.787) rotate(45)" fill="none" stroke="#161616" stroke-width="3">
             <rect width="11.42" height="11.42" stroke="none"/>
             <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none"/>
           </g> -->
-          <g class="dots" id="Rectangle_4" data-name="Rectangle 4" transform="translate(825.895 975.787) rotate(45)" fill="none" stroke="#161616" stroke-width="3">
-            <rect width="11.42" height="11.42" stroke="none"/>
-            <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none"/>
+            <g class="dots" id="Rectangle_4" data-name="Rectangle 4" transform="translate(825.895 975.787) rotate(45)"
+              fill="none" stroke="#161616" stroke-width="3">
+              <rect width="11.42" height="11.42" stroke="none" />
+              <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none" />
+            </g>
+            <g class="dots" id="Rectangle_5" data-name="Rectangle 5" transform="translate(872.716 975.787) rotate(45)"
+              fill="none" stroke="#161616" stroke-width="3">
+              <rect width="11.42" height="11.42" stroke="none" />
+              <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none" />
+            </g>
           </g>
-          <g class="dots" id="Rectangle_5" data-name="Rectangle 5" transform="translate(872.716 975.787) rotate(45)" fill="none" stroke="#161616" stroke-width="3">
-            <rect width="11.42" height="11.42" stroke="none"/>
-            <rect x="1.5" y="1.5" width="8.42" height="8.42" fill="none"/>
-          </g>
-        </g>
-      </svg>
-    </div>
-    <script>
+        </svg>
+      </div>
+      <script>
         var slideIndex = 1;
         showDivs(slideIndex);
         var menu = document.getElementsByClassName("menu");
         var btn = document.getElementsByClassName("nav");
 
         function openMenu() {
-            menu.style.display = "block";
-            btn.style.display = "none";
+          menu.style.display = "block";
+          btn.style.display = "none";
         }
 
         function closeMenu() {
-            menu.style.display = "none";
-            btn.style.display = "block";
+          menu.style.display = "none";
+          btn.style.display = "block";
         }
 
         function currentDiv(n) {
-            showDivs(slideIndex = n);
+          showDivs(slideIndex = n);
         }
 
         function plusDivs(n) {
-            showDivs(slideIndex += n);
+          showDivs(slideIndex += n);
         }
 
         function showDivs(n) {
-            var i;
-            var dots = document.getElementsByClassName("dots");
-            var x = document.getElementsByClassName("title");
-            if (n > x.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = x.length
-            };
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].setAttribute('fill', 'none');
-            }
-            x[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].setAttribute('fill', '#161616');
+          var i;
+          var dots = document.getElementsByClassName("dots");
+          var x = document.getElementsByClassName("title");
+          if (n > x.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = x.length
+          };
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].setAttribute('fill', 'none');
+          }
+          x[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].setAttribute('fill', '#161616');
         }
-    </script>
-</body>
+      </script>
+    </div>
+  </body>
 
 </html>
